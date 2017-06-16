@@ -1,4 +1,4 @@
-package com.pattern.builder;
+package com.patterns.creational.builder;
 
 /**
  * Конкретные строители реализуют шаги, объявленные в общем интерфейсе.

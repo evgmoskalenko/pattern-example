@@ -1,5 +1,8 @@
-package com.pattern.builder;
+package com.patterns.creational.builder;
 
+/**
+ * Строитель
+ */
 public class MainBuilder {
 
     public static void main(String[] args) {

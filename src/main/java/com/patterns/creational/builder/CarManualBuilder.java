@@ -1,4 +1,4 @@
-package com.pattern.builder;
+package com.patterns.creational.builder;
 
 /**
  * В отличие от других создающих паттернов, Строители могут создавать совершенно

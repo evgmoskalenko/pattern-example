@@ -1,4 +1,4 @@
-package com.pattern.builder;
+package com.patterns.creational.builder;
 
 /**
  * Директор знает в какой последовательности заставлять работать строителя. Он

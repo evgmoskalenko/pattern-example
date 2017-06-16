@@ -1,4 +1,4 @@
-package com.pattern.builder;
+package com.patterns.creational.builder;
 
 /**
  * Одна из фишек автомобиля.

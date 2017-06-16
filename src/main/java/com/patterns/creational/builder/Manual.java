@@ -1,4 +1,4 @@
-package com.pattern.builder;
+package com.patterns.creational.builder;
 
 /**
  * Руководство автомобиля — это второй продукт. Заметьте, что руководство и сам
