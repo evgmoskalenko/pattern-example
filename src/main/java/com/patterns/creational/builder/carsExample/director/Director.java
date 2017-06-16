@@ -1,4 +1,11 @@
-package com.patterns.creational.builder;
+package com.patterns.creational.builder.carsExample.director;
+
+import com.patterns.creational.builder.carsExample.cars.Type;
+import com.patterns.creational.builder.carsExample.components.Engine;
+import com.patterns.creational.builder.carsExample.components.GPSNavigator;
+import com.patterns.creational.builder.carsExample.components.Transmission;
+import com.patterns.creational.builder.carsExample.components.TripComputer;
+import com.patterns.creational.builder.carsExample.builders.Builder;
 
 /**
  * Директор знает в какой последовательности заставлять работать строителя. Он

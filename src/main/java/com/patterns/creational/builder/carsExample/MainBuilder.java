@@ -1,4 +1,10 @@
-package com.patterns.creational.builder;
+package com.patterns.creational.builder.carsExample;
+
+import com.patterns.creational.builder.carsExample.builders.CarBuilder;
+import com.patterns.creational.builder.carsExample.builders.CarManualBuilder;
+import com.patterns.creational.builder.carsExample.cars.Car;
+import com.patterns.creational.builder.carsExample.cars.Manual;
+import com.patterns.creational.builder.carsExample.director.Director;
 
 /**
  * Строитель
@@ -6,7 +12,6 @@ package com.patterns.creational.builder;
 public class MainBuilder {
 
     public static void main(String[] args) {
-
         Director director = new Director();
 
         // Директор получает объект конкретного строителя от клиента
@@ -19,7 +24,6 @@ public class MainBuilder {
         // знает и не зависит от конкретных классов строителей и продуктов.
         Car car = builder.getResult();
         System.out.println("Car built:\n" + car.getType());
-
 
         CarManualBuilder manualBuilder = new CarManualBuilder();
 

@@ -1,4 +1,9 @@
-package com.patterns.creational.builder;
+package com.patterns.creational.builder.carsExample.cars;
+
+import com.patterns.creational.builder.carsExample.components.Engine;
+import com.patterns.creational.builder.carsExample.components.GPSNavigator;
+import com.patterns.creational.builder.carsExample.components.Transmission;
+import com.patterns.creational.builder.carsExample.components.TripComputer;
 
 /**
  * Руководство автомобиля — это второй продукт. Заметьте, что руководство и сам

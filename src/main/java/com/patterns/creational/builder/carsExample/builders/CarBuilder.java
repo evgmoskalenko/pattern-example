@@ -1,4 +1,11 @@
-package com.patterns.creational.builder;
+package com.patterns.creational.builder.carsExample.builders;
+
+import com.patterns.creational.builder.carsExample.cars.Car;
+import com.patterns.creational.builder.carsExample.cars.Type;
+import com.patterns.creational.builder.carsExample.components.Engine;
+import com.patterns.creational.builder.carsExample.components.GPSNavigator;
+import com.patterns.creational.builder.carsExample.components.Transmission;
+import com.patterns.creational.builder.carsExample.components.TripComputer;
 
 /**
  * Конкретные строители реализуют шаги, объявленные в общем интерфейсе.

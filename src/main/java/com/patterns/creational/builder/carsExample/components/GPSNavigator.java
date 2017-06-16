@@ -1,9 +1,10 @@
-package com.patterns.creational.builder;
+package com.patterns.creational.builder.carsExample.components;
 
 /**
  * Одна из фишек автомобиля.
  */
 public class GPSNavigator {
+
     private String route;
 
     public GPSNavigator() {
@@ -17,4 +18,5 @@ public class GPSNavigator {
     public String getRoute() {
         return route;
     }
+
 }
